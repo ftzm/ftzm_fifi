@@ -31,10 +31,10 @@
 
                 sym_layer {
                         bindings = <
-   &trans &trans   &trans   &trans    &trans     &trans &kp BSLH  &kp FSLH  &kp QMARK &kp BSPC
-   &trans &trans   &kp UP   &trans    &trans     &trans &kp MINUS &kp UNDER &kp ESC   &kp RET
-   &trans &kp LEFT &kp DOWN &kp RIGHT &trans     &trans &kp END   &kp AMPS  &kp EQUAL &kp TAB
-                   &trans   &mo 3     &trans     &trans &mo 3     &trans
+   &trans &trans   &trans   &trans    &bt BT_CLR  &trans &kp BSLH  &kp FSLH  &kp QMARK &kp BSPC
+   &trans &trans   &kp UP   &trans    &trans      &trans &kp MINUS &kp UNDER &kp ESC   &kp RET
+   &trans &kp LEFT &kp DOWN &kp RIGHT &trans      &trans &kp END   &kp AMPS  &kp EQUAL &kp TAB
+                   &trans   &mo 3     &trans      &trans &mo 3     &trans
                         >;
                 };
 
